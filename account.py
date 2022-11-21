@@ -26,21 +26,15 @@ class Account():
             if amount <= self.account_balance:
                 self.account_balance = amount
                 return True
-            else:
-                return False
-    def get_balence(self):
+        return False
+    def get_balance(self):
         '''
         get account balance
         '''
-        if amount == 0:
-            return 0
-        else:
-            return amount
+        return self.account_balance
     def get_name(self):
         '''
         get account name
         '''
         return self.account_name
-
-
 
