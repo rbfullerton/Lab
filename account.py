@@ -1,3 +1,4 @@
+
 class Account():
     def __init__(self, name: str):
         '''
@@ -26,16 +27,12 @@ class Account():
             if amount <= self.account_balance:
                 self.account_balance = amount
                 return True
-            else:
-                return False
+        return False
     def get_balance(self):
         '''
         get account balance
         '''
-        if amount == 0:
-            return 0
-        else:
-            return amount
+        return self.account_balance
     def get_name(self):
         '''
         get account name
