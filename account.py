@@ -1,4 +1,3 @@
-
 class Account():
     def __init__(self, name: str):
         '''
@@ -38,6 +37,4 @@ class Account():
         get account name
         '''
         return self.account_name
-
-
 
